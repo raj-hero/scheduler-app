@@ -14,7 +14,7 @@ app.use(express.static("public"));
 
 port=process.env.PORT||8080;
 // mongoose.connect("mongodb://localhost:27017/todolistDB", {useNewUrlParser: true});
-mongoose.connect("mongodb://127.0.0.1:27017/todolistDB",{useNewUrlParser:true});
+mongoose.connect("mongodb+srv://Raj:raj@cluster0.br6qx.mongodb.net/todo",{useNewUrlParser:true});
 
 const itemsSchema = {
   name: String

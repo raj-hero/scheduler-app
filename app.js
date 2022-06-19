@@ -24,7 +24,7 @@ const Item = mongoose.model("Item", itemsSchema);
 
 
 const item1 = new Item({
-  name: "Welcome to your Todolist !"
+  name: "Welcome to your Scheduler App !"
 });
 
 const item2 = new Item({
@@ -32,7 +32,7 @@ const item2 = new Item({
 });
 
 const item3 = new Item({
-  name: "Hit checkbox to delete an item."
+  name: "Hit the checkbox to delete an item."
 });
 
 const defaultItems = [item1, item2, item3];
